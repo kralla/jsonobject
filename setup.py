@@ -1,7 +1,7 @@
 from setuptools import setup
 
 with open('README.md') as readme_file:
-    long_description = readme_file.read()
+    long_description = readme_file.read(encoding="utf-8")
 
 setup(
     name='jsonobject',
